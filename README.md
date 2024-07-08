@@ -1,3 +1,7 @@
+# VMware host kernel modules 
+Forked from [mkubecek/vmware-host-modules](https://github.com/mkubecek/vmware-host-modules) by [Runa Inoue Anderson](https://github.com/runa-chin)
+
+## Original description from repo's owner
 This repository tracks patches needed to build VMware (Player and
 Workstation) host modules against recent kernels. As it focuses on recent
 kernels (older ones do not need patching), only vmmon and vmnet modules are
@@ -35,3 +39,4 @@ releases starting with 4.9.
 
 This repository is provided "as is" with no guarantees. Use the contents on
 your own risk.
+
