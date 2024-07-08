@@ -59,7 +59,7 @@ of the same version, one can use either.
 First method (build and install):
 
   ```sh
-  wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-17.0.0.tar.gz
+  wget https://github.com/GNUWeeb/vmware-host-modules/archive/workstation-17.0.0.tar.gz
   tar -xzf workstation-17.0.0.tar.gz
   cd vmware-host-modules-workstation-17.0.0
   make
@@ -73,7 +73,7 @@ Based on your VMware product, replace "17.0.0" with your installed version.
 Second method (replace original tarballs):
 
   ```sh
-  wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-17.0.0.tar.gz
+  wget https://github.com/mkubecek/GNUWeeb/archive/workstation-17.0.0.tar.gz
   tar -xzf workstation-17.0.0.tar.gz
   cd vmware-host-modules-workstation-17.0.0
   tar -cf vmmon.tar vmmon-only
@@ -93,11 +93,11 @@ you can only download one particular source snapshot.
 
 First, clone the repository from GitHub either using HTTPS
 
-  ```git clone https://github.com/mkubecek/vmware-host-modules.git```
+  ```git clone https://github.com/GNUWeeb/vmware-host-modules.git```
 
 or using SSH
 
-  ```git clone git@github.com:mkubecek/vmware-host-modules.git```
+  ```git clone git@github.com:GNUWeeb/vmware-host-modules.git```
 
 Using SSH is preferrable if you already have an account on GitHub, use
 HTTPS if you don't.
@@ -124,7 +124,7 @@ switch to a new branch run "git fetch" and "git checkout ...".
 GitHub allows to download a particular snapshot (branch or tag) directly
 without git:
 
-  ```wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-17.0.0.tar.gz```
+  ```wget https://github.com/GNUWeeb/vmware-host-modules/archive/workstation-17.0.0.tar.gz```
 
 where "workstation" and "17.0.0" have the same meaning as in section 1a.
 Any other tool can be used to retrieve the URL, of course. It's also
